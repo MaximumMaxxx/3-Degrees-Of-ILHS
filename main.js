@@ -100,7 +100,6 @@ function initZoomDrag() {
 
 
 function updateLinks() {
-    console.log(selectedNode)
     const linkgraph = d3.select('.links')
         .selectAll('line')
         .data(graph.links)
