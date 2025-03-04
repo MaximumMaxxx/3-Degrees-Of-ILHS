@@ -12,6 +12,7 @@
             margin: 0;
         }
 
+
         body {
             /* 3. Add accessible line-height */
             line-height: 1.5;
@@ -96,8 +97,8 @@
         .controlCenter {
             pointer-events: none;
             position: absolute;
-            width: 100vw;
-            height: 100vh;
+            width: 100%;
+            height: 100%;
             display: flex;
             background: transparent;
 
@@ -140,13 +141,15 @@
         #toggleSidebar {
             position: absolute;
             left: .25rem; /* Ensures the button stays visible */
-            top: 0.5rem;
+            top: 0.25vh;
             background: #616161;
             color: white;
             border: none;
-            padding: 0.5rem;
+            padding: 0.25vh;
             cursor: pointer;
             border-radius: 0.25rem;
+            height: 4.5vh;
+            width: 2rem;
         }
         .controlBox.collapsed {
             transform: translateX(-110%); /* Moves sidebar completely off-screen */
@@ -201,6 +204,9 @@
             color: #90CAF9; /* Slightly lighter blue when hovered */
             text-decoration: underline; /* Adds an underline on hover */
         }
+
+
+
     </style>
 </head>
 <body>
