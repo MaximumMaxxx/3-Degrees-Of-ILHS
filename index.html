@@ -41,6 +41,7 @@
         /* 8. Improve line wrapping */
         p {
             text-wrap: pretty;
+            margin-bottom: 1rem;
         }
         h1, h2, h3, h4, h5, h6 {
             text-wrap: balance;
@@ -76,17 +77,20 @@
             overflow: scroll;
             pointer-events: all;
             position: relative;
-            margin:.25rem;
-
             background-color: #424242;
-            padding: .25rem;
+            padding: .25rem .5rem .25rem .25rem;
             border-radius: .25rem;
             color: #FAFAFA;
             width: 15rem;
             height: 90vh;
-            margin-top: auto;
-            margin-bottom: auto;
+            margin: auto .25rem;
+
+            transition: transform 0.15s ease;
             /*text-align: ;*/
+        }
+
+        h2 {
+            text-align: left;
         }
 
         .controlCenter {
@@ -96,49 +100,185 @@
             height: 100vh;
             display: flex;
             background: transparent;
+
+        }
+
+        fieldset {
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+        legend {
+            font-size: 1.5rem;
+            font-weight: bold;
+            padding: 0;
+        }
+        select {
+            background-color: #212121;
+            color: #FAFAFA;
+            border: 1px solid #616161;
+            padding: 0.25rem;
+            border-radius: 0.25rem;
+            width: 100%;
+        }
+
+        fieldset {
+            background-color: #424242;
+            border-radius: 0.25rem;
+            color: #FAFAFA;
+            width: 100%;
+            padding-bottom: 1rem;
+        }
+        legend {
+            color: #FAFAFA;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        #toggleSidebar {
+            position: absolute;
+            left: .25rem; /* Ensures the button stays visible */
+            top: 0.5rem;
+            background: #616161;
+            color: white;
+            border: none;
+            padding: 0.5rem;
+            cursor: pointer;
+            border-radius: 0.25rem;
+        }
+        .controlBox.collapsed {
+            transform: translateX(-110%); /* Moves sidebar completely off-screen */
+        }
+
+
+
+        .modal {
+            display: flex;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.6);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal-content {
+            background: #424242;
+            color: white;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            max-width: 400px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        #closeModal {
+            margin-top: .5rem;
+            background: #616161;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border-radius: 0.25rem;
+        }
+
+        #closeModal:hover {
+            background: #757575;
+        }
+
+        a {
+            color: #64B5F6; /* Light blue for visibility */
+            text-decoration: none; /* Removes default underline */
+            font-weight: bold; /* Makes it stand out slightly */
+        }
+
+        a:hover {
+            color: #90CAF9; /* Slightly lighter blue when hovered */
+            text-decoration: underline; /* Adds an underline on hover */
         }
     </style>
 </head>
 <body>
+
+<div id="disclaimerModal" class="modal">
+    <div class="modal-content">
+        <h2 style="text-align: center">Disclaimer</h2>
+        <p>Please don't kill frienwdships or relationships over the results of a silly graph. This is just for fun and does not perfectly reflect reality.</p>
+        <p>Also, this website doesn't really work on mobile. You can try but it will likely be very broken</p>
+        <button id="closeModal">Got it!</button>
+    </div>
+</div>
+
+<button id="toggleSidebar">
+    <i class="fa-solid fa-chevron-left"></i>
+</button>
 <div class="controlCenter">
     <div class="controlBox">
         <section>
-            <h2>Intro</h2>
-            <p>Welcome to 3 Degree Of ILHS! This graph represents most the people and friendships at Innovation Lab.</p>
+            <h1>Intro</h1>
+            <p>welcome to 3 Degree of ILHS! a project to map out the social connections and friendships at innovation lab. it's a new way to look at the school and find just how interconnected we all are!</p>
+            <p>this project was inspired by the classic parlor game 7 degrees of kevin bacon where you try attempt to build a chain of people you've met to get to kevin bacon.</p>
         </section>
 
-        <section>
-            <h2>Controls</h2>
-            <span>Coloring Mode:</span>
+        <fieldset>
+            <legend>Controls</legend>
+            <label for="coloringSelect">Coloring Mode:</label>
             <select name="" id="coloringSelect">
                 <option value="community">Community</option>
                 <option value="grade">Grade</option>
             </select>
 
+        </fieldset>
+
+
+        <section>
+            <h2>Get your data in</h2>
+            <p style="margin-bottom: 0.25rem">If you didn't fill out the form when it was in the bird call, you can do it now. Click <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKgt92NyMhM6SEQdNVA5mT96-nS5ZVvLGN7LMYNQJ2wbzP9A/viewform?usp=sf_link">here (school account)</a> or scan the QR code below</p>
+            <img src="qrCode.png" alt="qr code" style="padding-bottom: 1rem;">
         </section>
+
 
         <section>
             <h2>About the graph</h2>
             <p>Connections on the graph are formed when</p>
-            <br>
-            <p>
-            1. One of the people lists the other as a close friend on the form
-            </p>
-            <p>
-            2. One of the people lists the other as a person they frequently interact with outside their grade
-            </p>
-            <br>
+
+            <ol style="padding-right: 10px;">
+                <li>
+                    One of the people lists the other as a close friend on the form
+                </li>
+                <li>
+                    One of the people lists the other as a person they frequently interact with outside their grade
+                </li>
+            </ol>
+
             <p> In situations where people marked each other, those double connections were collapsed to a single connection</p>
-            <br>
-            <br>
-            <p>The coloring has two modes. The easiest to explain is <code>Grade</code>. Grade simply colors based on the grade level people indicated on the form. Anyone that didn't submit the form (so called "implied") people are gray. If your name is gray you can fill out the form and be included properly in some future update!</p>
-            <br>
-            <p>The other coloring mode is <code>community</code>. Community uses an algorithm to find similar clusters of nodes in the network (the library I use implements the multilevel algorithm). There's a bunch of different methods for finding communities but in the end they all give you a bunch of groupings. Each grouping was then assigned a color and that's what you see in the graph. Whenever you update the graph the communities and color assignments change, the color doesn't mean anything other than as a differentiator.</p>
-            <br>
-            <br>
+            <p>The coloring has two modes. The easiest to explain is <strong>grade</strong>. Grade simply colors based on the grade level people indicated on the form. Anyone that didn't submit the form (so called "implied") people are gray. If your name is gray you can fill out the form and be included properly in some future update!</p>
+            <p>The other coloring mode is <strong>community</strong>. Community uses an algorithm to find similar clusters of nodes in the network (the library I use implements the multilevel algorithm). There's a bunch of different methods for finding communities but in the end they all give you a bunch of groupings. Each grouping was then assigned a color and that's what you see in the graph. Whenever you update the graph the communities and color assignments change, the color doesn't mean anything other than as a differentiator.</p>
+            <p>The initial dataset had a lot of names that were misspelled, missing last names, or non-existent. There was a lot of manual labor to go through the dataset and turn it into something usable like this. That being said there are likely mistakes, people with incorrect connections, missing last names, and missing people. If you aren't on this graph fill out the form and you will be added in a future update!</p>
             <p>The last feature of the graph is highlighting. Highlighting is pretty simple, it just shows any connected nodes to the node you have hovered in white. If you click on that node you can then drag it around and see how the graph reforms.</p>
         </section>
 
+        <section>
+            <h2>Questions</h2>
+            <p>If you have any questions, comments, concerns, feedback, etc. Feel free to email me (Max, 2014364) or come find me at school. I'm not especially hard to find.</p>
+        </section>
+
+
+        <section>
+            <h2>Acknowledgements</h2>
+            <p>This project would not have happened without the support of a bunch of people. In no particular order, thanks to Abigail K, Atticus P, Jayden S, Molly O, and Shivesh B. They all were super helpful formatting names, helping me with code, giving design feedback, etc. Thanks a bunch guys <3</p>
+        </section>
+
+        <section>
+            <h2>Contributions</h2>
+            <p>If you want to contribute to the project for some ungodly reason I'd love some help. The code is open source on
+                <a href="https://github.com/MaximumMaxxx/3-Degrees-Of-ILHS">Github</a>. Also if you know how to design things actually well that would be appreciated.</p>
+        </section>
     </div>
 </div>
 <div class="graphWrapper">
@@ -152,5 +292,39 @@
 </div>
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script src="main.js"></script>
+<script src="https://kit.fontawesome.com/5b31eace28.js" crossorigin="anonymous"></script>
+
+<script>
+    document.getElementById("toggleSidebar").addEventListener("click", function() {
+        let sidebar = document.querySelector(".controlBox");
+        let button = this;
+
+        sidebar.classList.toggle("collapsed")
+
+        if (sidebar.classList.contains("collapsed") ) {
+            button.innerHTML = "<i class=\"fa-solid fa-chevron-right\"></i>";  // Change icon
+        } else {
+
+            button.innerHTML = "<i class=\"fa-solid fa-chevron-left\"></i>";  // Change icon
+        }
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const modal = document.getElementById("disclaimerModal");
+        const closeModal = document.getElementById("closeModal");
+
+        closeModal.addEventListener("click", function () {
+            modal.style.display = "none";
+        });
+
+        // Optional: Close modal if user clicks outside of it
+        modal.addEventListener("click", function (event) {
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        });
+    });
+</script>
+
 </body>
 </html>
