@@ -31,7 +31,7 @@ dropdown.addEventListener("change", function() {
 
 
 // D3 Rendering Logic
-d3.json("../graph.json").then(function(_graph) {
+d3.json("./graph.json").then(function(_graph) {
     for (let i = 0; i < _graph["links"].length; i++) {
         _graph["links"][i]["source"]= parseInt(_graph["links"][i]["source"].replace("n",""));
         _graph["links"][i]["target"]= parseInt(_graph["links"][i]["target"].replace("n",""))
