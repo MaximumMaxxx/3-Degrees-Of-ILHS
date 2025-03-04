@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* 1. Use a more-intuitive box-sizing model */
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        /* 2. Remove default margin */
+        * {
+            margin: 0;
+        }
+
+        body {
+            /* 3. Add accessible line-height */
+            line-height: 1.5;
+            /* 4. Improve text rendering */
+            -webkit-font-smoothing: antialiased;
+
+            font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+            font-weight: normal;
+        }
+
+        /* 5. Improve media defaults */
+        img, picture, video, canvas, svg {
+            display: block;
+            max-width: 100%;
+        }
+
+        /* 6. Inherit fonts for form controls */
+        input, button, textarea, select {
+            font: inherit;
+        }
+
+        /* 7. Avoid text overflows */
+        p, h1, h2, h3, h4, h5, h6 {
+            overflow-wrap: break-word;
+        }
+
+        /* 8. Improve line wrapping */
+        p {
+            text-wrap: pretty;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            text-wrap: balance;
+        }
+
+        /*
+          9. Create a root stacking context
+        */
+        #root, #__next {
+            isolation: isolate;
+        }
+
+        line {
+            /*stroke-opacity: 0.6;*/
+        }
+        .graphWrapper {
+            padding: 0;
+            margin: 0;
+            background-color:#212121;
+
+            font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+        }
+        .node-text {
+            font-size:  18px;
+            paint-order: stroke;
+            stroke: #000000;
+            stroke-width: 1px;
+            stroke-linecap: butt;
+            stroke-linejoin: miter;
+            font-weight: 800;
+        }
+        .controlBox {
+            overflow: scroll;
+            pointer-events: all;
+            position: relative;
+            margin:.25rem;
+
+            background-color: #424242;
+            padding: .25rem;
+            border-radius: .25rem;
+            color: #FAFAFA;
+            width: 15rem;
+            height: 90vh;
+            margin-top: auto;
+            margin-bottom: auto;
+            /*text-align: ;*/
+        }
+
+        .controlCenter {
+            pointer-events: none;
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            background: transparent;
+        }
+    </style>
+</head>
+<body>
+<div class="controlCenter">
+    <div class="controlBox">
+        <section>
+            <h2>Intro</h2>
+            <p>Welcome to 3 Degree Of ILHS! This graph represents most the people and friendships at Innovation Lab.</p>
+        </section>
+
+        <section>
+            <h2>Controls</h2>
+            <span>Coloring Mode:</span>
+            <select name="" id="coloringSelect">
+                <option value="community">Community</option>
+                <option value="grade">Grade</option>
+            </select>
+
+        </section>
+
+        <section>
+            <h2>About the graph</h2>
+            <p>Connections on the graph are formed when</p>
+            <br>
+            <p>
+            1. One of the people lists the other as a close friend on the form
+            </p>
+            <p>
+            2. One of the people lists the other as a person they frequently interact with outside their grade
+            </p>
+            <br>
+            <p> In situations where people marked each other, those double connections were collapsed to a single connection</p>
+            <br>
+            <br>
+            <p>The coloring has two modes. The easiest to explain is <code>Grade</code>. Grade simply colors based on the grade level people indicated on the form. Anyone that didn't submit the form (so called "implied") people are gray. If your name is gray you can fill out the form and be included properly in some future update!</p>
+            <br>
+            <p>The other coloring mode is <code>community</code>. Community uses an algorithm to find similar clusters of nodes in the network (the library I use implements the multilevel algorithm). There's a bunch of different methods for finding communities but in the end they all give you a bunch of groupings. Each grouping was then assigned a color and that's what you see in the graph. Whenever you update the graph the communities and color assignments change, the color doesn't mean anything other than as a differentiator.</p>
+            <br>
+            <br>
+            <p>The last feature of the graph is highlighting. Highlighting is pretty simple, it just shows any connected nodes to the node you have hovered in white. If you click on that node you can then drag it around and see how the graph reforms.</p>
+        </section>
+
+    </div>
+</div>
+<div class="graphWrapper">
+
+    <svg  width="100vw" height="100vh" style="padding: 0; margin: 0;">
+        <g class="links"></g>
+        <g class="nodes"></g>
+    <!--    <g class="labels"></g>-->
+    </svg>
+
+</div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
