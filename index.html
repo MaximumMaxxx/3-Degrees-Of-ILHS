@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="description" content="The social network graph for Innovation Lab High school inspired by 7 degrees of Kevin Bacon">
+    <title>3 Degrees Of ILHS!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <style>
         /* 1. Use a more-intuitive box-sizing model */
@@ -221,7 +225,7 @@
     </div>
 </div>
 
-<button id="toggleSidebar">
+<button name="Collapse Sidebar" id="toggleSidebar">
     <i class="fa-solid fa-chevron-left"></i>
 </button>
 <div class="controlCenter">
@@ -309,9 +313,9 @@
     </svg>
 
 </div>
-<script src="https://d3js.org/d3.v7.min.js"></script>
-<script src="main.js"></script>
-<script src="https://kit.fontawesome.com/5b31eace28.js" crossorigin="anonymous"></script>
+<script defer src="https://d3js.org/d3.v7.min.js"></script>
+<script defer src="main.js"></script>
+<script async src="https://kit.fontawesome.com/5b31eace28.js" crossorigin="anonymous"></script>
 
 <script>
     document.getElementById("toggleSidebar").addEventListener("click", function() {
