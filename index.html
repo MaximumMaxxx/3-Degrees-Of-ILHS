@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head >
     <meta charset="UTF-8">
     <meta name="description" content="The social network graph for Innovation Lab High school inspired by 7 degrees of Kevin Bacon">
     <title>3 Degrees Of ILHS!</title>
@@ -221,11 +221,11 @@
         <h2 style="text-align: center">Disclaimer</h2>
         <p>Please don't kill friendships or relationships over the results of a silly graph. This is just for fun and does not perfectly reflect reality.</p>
         <p>Also, this website doesn't really work on mobile. You can try but it will likely be very broken</p>
-        <button id="closeModal">Got it!</button>
+        <button id="closeModal" aria-label="Close Modal">Got it!</button>
     </div>
 </div>
 
-<button name="Collapse Sidebar" id="toggleSidebar">
+<button aria-label="Collapse Sidebar" id="toggleSidebar">
     <i class="fa-solid fa-chevron-left"></i>
 </button>
 <div class="controlCenter">
@@ -239,7 +239,7 @@
         <fieldset>
             <legend>Controls</legend>
             <label for="coloringSelect">Coloring Mode:</label>
-            <select name="" id="coloringSelect">
+            <select id="coloringSelect">
                 <option value="community">Community</option>
                 <option value="grade">Grade</option>
             </select>
