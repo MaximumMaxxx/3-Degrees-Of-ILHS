@@ -186,7 +186,6 @@ function updateNodes() {
 
 
 function getGradeColor(d) {
-    console.log(d)
     if (renderingMode === ColoringModes.Grade) {
         switch (d.grade) {
             case "12th":
