@@ -6,7 +6,7 @@ import shutil
 
 edges = []
 vertexs = {}
-with open('3 Degrees Of ILHS.csv', newline='\n') as csvfile:
+with open('3 Degrees Of ILHS (Responses) - Fixed responses.csv', newline='\n') as csvfile:
     reader = csv.reader(csvfile, delimiter=',', quotechar='"')
     for row in reader:
         name = row[2].lower()
