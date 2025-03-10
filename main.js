@@ -100,7 +100,6 @@ function initZoomDrag() {
 
 
 function updateLinks() {
-    console.log(selectedNode)
     const linkgraph = d3.select('.links')
         .selectAll('line')
         .data(graph.links)
@@ -187,7 +186,6 @@ function updateNodes() {
 
 
 function getGradeColor(d) {
-    console.log(d)
     if (renderingMode === ColoringModes.Grade) {
         switch (d.grade) {
             case "12th":
