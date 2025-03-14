@@ -33,8 +33,12 @@ dropdown.addEventListener("change", function() {
 // D3 Rendering Logic
 d3.json("./graph.json").then(function(_graph) {
     for (let i = 0; i < _graph["links"].length; i++) {
-        _graph["links"][i]["source"]= parseInt(_graph["links"][i]["source"].replace("n",""));
-        _graph["links"][i]["target"]= parseInt(_graph["links"][i]["target"].replace("n",""))
+        try {
+            _graph["links"][i]["source"]= parseInt(_graph["links"][i]["source"].replace("n",""));
+            _graph["links"][i]["target"]= parseInt(_graph["links"][i]["target"].replace("n",""))
+        } catch (e) {
+            console.error(`Unable to parse source or target at index ${i} in\n ${_graph["links"][i]["target"].replace("n","")}\n ${_graph["links"][i]["source"].replace("n","")}`)
+        }
     }
 
     // Capitalize the first letter of the first name and any letter(s) in the last name
@@ -43,8 +47,12 @@ d3.json("./graph.json").then(function(_graph) {
         let str = ""
 
 
-        split[0][0] = split[0][0].toUpperCase()
-        str += String(split[0][0]).toUpperCase() + String(split[0]).slice(1)
+        try {
+            split[0][0] = split[0][0].toUpperCase()
+            str += String(split[0][0]).toUpperCase() + String(split[0]).slice(1)
+        } catch (e) {
+            console.error(`Failed to parse name "${_graph["nodes"][i]["name"].split(" ")}"`)
+        }
 
         if (split.length > 1) {
             split[1] = split[1].toUpperCase()

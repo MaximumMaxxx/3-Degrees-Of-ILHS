@@ -207,7 +207,7 @@
         {
             "grade": "?",
             "name": "mikey c",
-            "community": 7.0,
+            "community": 3.0,
             "id": 33
         },
         {
@@ -237,7 +237,7 @@
         {
             "grade": "?",
             "name": "rish p",
-            "community": 8.0,
+            "community": 7.0,
             "id": 38
         },
         {
@@ -255,19 +255,19 @@
         {
             "grade": "12th",
             "name": "m s",
-            "community": 9.0,
+            "community": 8.0,
             "id": 41
         },
         {
             "grade": "?",
             "name": "jasmin a",
-            "community": 7.0,
+            "community": 9.0,
             "id": 42
         },
         {
             "grade": "?",
             "name": "azure h",
-            "community": 7.0,
+            "community": 9.0,
             "id": 43
         },
         {
@@ -291,19 +291,19 @@
         {
             "grade": "12th",
             "name": "rein s",
-            "community": 9.0,
+            "community": 8.0,
             "id": 47
         },
         {
             "grade": "?",
             "name": "victoria m",
-            "community": 6.0,
+            "community": 4.0,
             "id": 48
         },
         {
             "grade": "11th",
             "name": "nathan c",
-            "community": 9.0,
+            "community": 8.0,
             "id": 49
         },
         {
@@ -339,7 +339,7 @@
         {
             "grade": "?",
             "name": "mags t",
-            "community": 9.0,
+            "community": 8.0,
             "id": 55
         },
         {
@@ -351,7 +351,7 @@
         {
             "grade": "?",
             "name": "isaiah b",
-            "community": 9.0,
+            "community": 8.0,
             "id": 57
         },
         {
@@ -477,7 +477,7 @@
         {
             "grade": "?",
             "name": "miranda w",
-            "community": 3.0,
+            "community": 4.0,
             "id": 78
         },
         {
@@ -495,13 +495,13 @@
         {
             "grade": "11th",
             "name": "natalie i",
-            "community": 7.0,
+            "community": 4.0,
             "id": 81
         },
         {
             "grade": "?",
             "name": "xander k",
-            "community": 8.0,
+            "community": 7.0,
             "id": 82
         },
         {
@@ -591,115 +591,115 @@
         {
             "grade": "11th",
             "name": "daniel j",
-            "community": 9.0,
+            "community": 8.0,
             "id": 97
         },
         {
             "grade": "?",
             "name": "keegan w",
-            "community": 9.0,
+            "community": 8.0,
             "id": 98
         },
         {
             "grade": "11th",
             "name": "kai c",
-            "community": 9.0,
+            "community": 8.0,
             "id": 99
         },
         {
             "grade": "?",
             "name": "lee h",
-            "community": 9.0,
+            "community": 8.0,
             "id": 100
         },
         {
             "grade": "teacher",
             "name": "lunceford",
-            "community": 2.0,
+            "community": 9.0,
             "id": 101
         },
         {
             "grade": "?",
             "name": "brienne",
-            "community": 2.0,
+            "community": 9.0,
             "id": 102
         },
         {
             "grade": "?",
             "name": "kelly",
-            "community": 2.0,
+            "community": 9.0,
             "id": 103
         },
         {
             "grade": "10th",
             "name": "liza k",
-            "community": 7.0,
+            "community": 9.0,
             "id": 104
         },
         {
             "grade": "?",
             "name": "baker",
-            "community": 2.0,
+            "community": 9.0,
             "id": 105
         },
         {
             "grade": "10th",
             "name": "margaret r",
-            "community": 7.0,
+            "community": 9.0,
             "id": 106
         },
         {
             "grade": "?",
             "name": "baz a",
-            "community": 7.0,
+            "community": 9.0,
             "id": 107
         },
         {
             "grade": "10th",
             "name": "alex m",
-            "community": 7.0,
+            "community": 9.0,
             "id": 108
         },
         {
             "grade": "?",
             "name": "paige r",
-            "community": 7.0,
+            "community": 9.0,
             "id": 109
         },
         {
             "grade": "10th",
             "name": "shanti v",
-            "community": 7.0,
+            "community": 9.0,
             "id": 110
         },
         {
             "grade": "?",
             "name": "arian a",
-            "community": 7.0,
+            "community": 9.0,
             "id": 111
         },
         {
             "grade": "?",
             "name": "jiya m",
-            "community": 7.0,
+            "community": 9.0,
             "id": 112
         },
         {
             "grade": "?",
             "name": "joe h",
-            "community": 7.0,
+            "community": 4.0,
             "id": 113
         },
         {
             "grade": "?",
             "name": "cattie w",
-            "community": 7.0,
+            "community": 4.0,
             "id": 114
         },
         {
             "grade": "?",
             "name": "cassie r",
-            "community": 7.0,
+            "community": 9.0,
             "id": 115
         },
         {
@@ -711,73 +711,73 @@
         {
             "grade": "11th",
             "name": "paulina ?",
-            "community": 8.0,
+            "community": 7.0,
             "id": 117
         },
         {
             "grade": "?",
             "name": "elisa ?",
-            "community": 8.0,
+            "community": 7.0,
             "id": 118
         },
         {
             "grade": "11th",
             "name": "shelby m",
-            "community": 8.0,
+            "community": 7.0,
             "id": 119
         },
         {
             "grade": "11th",
             "name": "maddy p",
-            "community": 8.0,
+            "community": 7.0,
             "id": 120
         },
         {
             "grade": "?",
             "name": "riya s",
-            "community": 8.0,
+            "community": 7.0,
             "id": 121
         },
         {
             "grade": "11th",
             "name": "valen d",
-            "community": 8.0,
+            "community": 7.0,
             "id": 122
         },
         {
             "grade": "11th",
             "name": "anastazia l",
-            "community": 9.0,
+            "community": 8.0,
             "id": 123
         },
         {
             "grade": "?",
             "name": "gabriel r",
-            "community": 9.0,
+            "community": 8.0,
             "id": 124
         },
         {
             "grade": "11th",
             "name": "savannah s",
-            "community": 9.0,
+            "community": 8.0,
             "id": 125
         },
         {
             "grade": "?",
             "name": "ella j",
-            "community": 9.0,
+            "community": 8.0,
             "id": 126
         },
         {
             "grade": "?",
             "name": "grace r",
-            "community": 9.0,
+            "community": 8.0,
             "id": 127
         },
         {
             "grade": "11th",
             "name": "rose w",
-            "community": 9.0,
+            "community": 8.0,
             "id": 128
         },
         {
@@ -789,73 +789,73 @@
         {
             "grade": "11th",
             "name": "keira b",
-            "community": 8.0,
+            "community": 7.0,
             "id": 130
         },
         {
             "grade": "11th",
             "name": "toko m",
-            "community": 8.0,
+            "community": 7.0,
             "id": 131
         },
         {
             "grade": "11th",
             "name": "kit o",
-            "community": 8.0,
+            "community": 7.0,
             "id": 132
         },
         {
             "grade": "?",
             "name": "liam b",
-            "community": 8.0,
+            "community": 7.0,
             "id": 133
         },
         {
             "grade": "?",
             "name": "makena p",
-            "community": 7.0,
+            "community": 9.0,
             "id": 134
         },
         {
             "grade": "10th",
             "name": "shivesh b",
-            "community": 7.0,
+            "community": 9.0,
             "id": 135
         },
         {
             "grade": "?",
             "name": "eli l",
-            "community": 7.0,
+            "community": 9.0,
             "id": 136
         },
         {
             "grade": "?",
             "name": "noah l",
-            "community": 7.0,
+            "community": 9.0,
             "id": 137
         },
         {
             "grade": "10th",
             "name": "th w",
-            "community": 7.0,
+            "community": 9.0,
             "id": 138
         },
         {
             "grade": "?",
             "name": "ty t",
-            "community": 7.0,
+            "community": 9.0,
             "id": 139
         },
         {
             "grade": "?",
             "name": "fung",
-            "community": 8.0,
+            "community": 7.0,
             "id": 140
         },
         {
             "grade": "?",
             "name": "aurora k",
-            "community": 7.0,
+            "community": 9.0,
             "id": 141
         },
         {
@@ -909,7 +909,7 @@
         {
             "grade": "11th",
             "name": "mathias c",
-            "community": 9.0,
+            "community": 8.0,
             "id": 150
         },
         {
@@ -999,7 +999,7 @@
         {
             "grade": "10th",
             "name": "alyx c",
-            "community": 7.0,
+            "community": 9.0,
             "id": 165
         },
         {
@@ -1023,7 +1023,7 @@
         {
             "grade": "11th",
             "name": "eduardo c",
-            "community": 8.0,
+            "community": 7.0,
             "id": 169
         },
         {
@@ -1071,13 +1071,13 @@
         {
             "grade": "11th",
             "name": "alex ms",
-            "community": 9.0,
+            "community": 8.0,
             "id": 177
         },
         {
             "grade": "11th",
             "name": "newt b",
-            "community": 9.0,
+            "community": 8.0,
             "id": 178
         },
         {
@@ -1125,13 +1125,13 @@
         {
             "grade": "?",
             "name": "eddy",
-            "community": 8.0,
+            "community": 7.0,
             "id": 186
         },
         {
             "grade": "?",
             "name": "mo",
-            "community": 8.0,
+            "community": 7.0,
             "id": 187
         },
         {
@@ -1149,61 +1149,61 @@
         {
             "grade": "11th",
             "name": "nora j",
-            "community": 9.0,
+            "community": 8.0,
             "id": 190
         },
         {
             "grade": "?",
             "name": "jameson ?",
-            "community": 9.0,
+            "community": 8.0,
             "id": 191
         },
         {
             "grade": "?",
             "name": "rian ?",
-            "community": 9.0,
+            "community": 8.0,
             "id": 192
         },
         {
             "grade": "11th",
             "name": "alex t",
-            "community": 8.0,
+            "community": 7.0,
             "id": 193
         },
         {
             "grade": "?",
             "name": "steven m",
-            "community": 8.0,
+            "community": 7.0,
             "id": 194
         },
         {
             "grade": "?",
             "name": "narek h",
-            "community": 8.0,
+            "community": 7.0,
             "id": 195
         },
         {
             "grade": "?",
             "name": "kim ?",
-            "community": 8.0,
+            "community": 7.0,
             "id": 196
         },
         {
             "grade": "?",
             "name": "adian s",
-            "community": 8.0,
+            "community": 7.0,
             "id": 197
         },
         {
             "grade": "?",
             "name": "jina p",
-            "community": 8.0,
+            "community": 7.0,
             "id": 198
         },
         {
             "grade": "?",
             "name": "storey",
-            "community": 8.0,
+            "community": 7.0,
             "id": 199
         },
         {
@@ -1227,31 +1227,31 @@
         {
             "grade": "11th",
             "name": "max c",
-            "community": 9.0,
+            "community": 8.0,
             "id": 203
         },
         {
             "grade": "?",
             "name": "z w",
-            "community": 9.0,
+            "community": 8.0,
             "id": 204
         },
         {
             "grade": "?",
             "name": "mary m",
-            "community": 9.0,
+            "community": 8.0,
             "id": 205
         },
         {
             "grade": "12th",
             "name": "david h",
-            "community": 2.0,
+            "community": 10.0,
             "id": 206
         },
         {
             "grade": "teacher",
             "name": "franklin",
-            "community": 2.0,
+            "community": 10.0,
             "id": 207
         },
         {
@@ -1305,31 +1305,31 @@
         {
             "grade": "?",
             "name": "fluster",
-            "community": 2.0,
+            "community": 10.0,
             "id": 216
         },
         {
             "grade": "?",
             "name": "tiffany m",
-            "community": 2.0,
+            "community": 10.0,
             "id": 217
         },
         {
             "grade": "?",
             "name": "trod",
-            "community": 2.0,
+            "community": 10.0,
             "id": 218
         },
         {
             "grade": "?",
             "name": "gardener",
-            "community": 2.0,
+            "community": 10.0,
             "id": 219
         },
         {
             "grade": "?",
             "name": "gallo",
-            "community": 2.0,
+            "community": 10.0,
             "id": 220
         },
         {
@@ -1371,19 +1371,19 @@
         {
             "grade": "?",
             "name": "tobby h",
-            "community": 7.0,
+            "community": 9.0,
             "id": 227
         },
         {
             "grade": "10th",
             "name": "judes h",
-            "community": 7.0,
+            "community": 9.0,
             "id": 228
         },
         {
             "grade": "?",
             "name": "milo k",
-            "community": 9.0,
+            "community": 8.0,
             "id": 229
         },
         {
@@ -1395,7 +1395,7 @@
         {
             "grade": "11th",
             "name": "david w",
-            "community": 8.0,
+            "community": 7.0,
             "id": 231
         },
         {
@@ -1419,7 +1419,7 @@
         {
             "grade": "?",
             "name": "lucas r",
-            "community": 7.0,
+            "community": 9.0,
             "id": 235
         },
         {
@@ -1437,7 +1437,7 @@
         {
             "grade": "10th",
             "name": "samuel j",
-            "community": 7.0,
+            "community": 9.0,
             "id": 238
         },
         {
@@ -1449,7 +1449,7 @@
         {
             "grade": "?",
             "name": "hayden m",
-            "community": 9.0,
+            "community": 8.0,
             "id": 240
         },
         {
@@ -1461,19 +1461,19 @@
         {
             "grade": "?",
             "name": "dylan r",
-            "community": 7.0,
+            "community": 9.0,
             "id": 242
         },
         {
             "grade": "?",
             "name": "blake s",
-            "community": 7.0,
+            "community": 9.0,
             "id": 243
         },
         {
             "grade": "?",
             "name": "skyler p",
-            "community": 7.0,
+            "community": 9.0,
             "id": 244
         },
         {
@@ -1527,7 +1527,7 @@
         {
             "grade": "10th",
             "name": "azure h.",
-            "community": 7.0,
+            "community": 9.0,
             "id": 253
         },
         {
@@ -1544,33 +1544,21 @@
         },
         {
             "grade": "?",
-            "name": "daphne u\nzackary s\nroran s\njames i\ndevidal",
+            "name": "zackary s",
             "community": 6.0,
             "id": 256
         },
         {
-            "grade": "?",
-            "name": "",
-            "community": 0.0,
-            "id": 257
-        },
-        {
             "grade": "10th",
             "name": "maci e",
-            "community": 0.0,
-            "id": 258
-        },
-        {
-            "grade": "?",
-            "name": "mr fung",
-            "community": 0.0,
-            "id": 259
+            "community": 9.0,
+            "id": 257
         },
         {
             "grade": "?",
             "name": "chloe ann s",
             "community": 0.0,
-            "id": 260
+            "id": 258
         }
     ],
     "links": [
@@ -1660,7 +1648,7 @@
         },
         {
             "source": "n1",
-            "target": "n258"
+            "target": "n257"
         },
         {
             "source": "n2",
@@ -1873,10 +1861,6 @@
         {
             "source": "n8",
             "target": "n250"
-        },
-        {
-            "source": "n8",
-            "target": "n257"
         },
         {
             "source": "n9",
@@ -2371,6 +2355,10 @@
             "target": "n233"
         },
         {
+            "source": "n32",
+            "target": "n255"
+        },
+        {
             "source": "n33",
             "target": "n138"
         },
@@ -2641,6 +2629,10 @@
         {
             "source": "n45",
             "target": "n238"
+        },
+        {
+            "source": "n45",
+            "target": "n255"
         },
         {
             "source": "n46",
@@ -3063,6 +3055,10 @@
             "target": "n247"
         },
         {
+            "source": "n74",
+            "target": "n255"
+        },
+        {
             "source": "n75",
             "target": "n149"
         },
@@ -3303,10 +3299,6 @@
             "target": "n258"
         },
         {
-            "source": "n86",
-            "target": "n260"
-        },
-        {
             "source": "n88",
             "target": "n90"
         },
@@ -3316,7 +3308,7 @@
         },
         {
             "source": "n88",
-            "target": "n258"
+            "target": "n257"
         },
         {
             "source": "n89",
@@ -3672,7 +3664,7 @@
         },
         {
             "source": "n109",
-            "target": "n258"
+            "target": "n257"
         },
         {
             "source": "n110",
@@ -3700,15 +3692,15 @@
         },
         {
             "source": "n110",
-            "target": "n258"
+            "target": "n257"
         },
         {
             "source": "n111",
-            "target": "n258"
+            "target": "n257"
         },
         {
             "source": "n112",
-            "target": "n258"
+            "target": "n257"
         },
         {
             "source": "n115",
@@ -4043,6 +4035,10 @@
             "target": "n252"
         },
         {
+            "source": "n140",
+            "target": "n257"
+        },
+        {
             "source": "n141",
             "target": "n165"
         },
@@ -4068,7 +4064,7 @@
         },
         {
             "source": "n145",
-            "target": "n258"
+            "target": "n257"
         },
         {
             "source": "n147",
@@ -4435,12 +4431,16 @@
             "target": "n233"
         },
         {
+            "source": "n221",
+            "target": "n255"
+        },
+        {
             "source": "n225",
             "target": "n226"
         },
         {
             "source": "n225",
-            "target": "n258"
+            "target": "n257"
         },
         {
             "source": "n226",
@@ -4468,15 +4468,11 @@
         },
         {
             "source": "n250",
-            "target": "n258"
+            "target": "n257"
         },
         {
             "source": "n255",
             "target": "n256"
-        },
-        {
-            "source": "n258",
-            "target": "n259"
         }
     ]
 }
